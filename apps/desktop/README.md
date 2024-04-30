@@ -29,6 +29,16 @@ git lfs pull
 npm install
 ``` 
 
+Install the Tauri CLI:
+```
+xcode-select --install
+
+curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
+```
+More info: https://tauri.app/v1/guides/getting-started/prerequisites
+
+Install onnyxruntime from https://github.com/microsoft/onnxruntime/releases/ and put the `libonnxruntime.dylib` file in the `apps/desktop/src-tauri/frameworks` directory.
+
 Then to build the app locally:
 
 ```
