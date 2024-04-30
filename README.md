@@ -72,7 +72,9 @@ To make sure you have everything you need to start building, you'll need to
 install the `git-lfs` package for your favourite operating system, then run the
 following commands in this repo:
 
+    brew install git-lfs
     git lfs install
+    git config http.sslVerify false
     git lfs pull
 
 If you find a bug or have a feature request, [open an issue](https://github.com/BloopAI/bloop/issues)! You can find the application logs here:
